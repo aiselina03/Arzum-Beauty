@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://arzumbeauty.com/public/assets/front-end/assets/images/logos/logo-mobile.svg"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Arzum Beauty House</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <a href="./home.html">
+            <img
+              src="https://arzumbeauty.com/storage/app/public/company/2023-01-16-63c502fb7460c.svg"
+              alt=""
+          /></a>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Axtar..." />
+        </div>
+        <div class="lang">
+          <i class="fa-solid fa-globe"></i>
+          <p>AZ</p>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="icons">
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="/hair.html">Saç</a></li>
+          <li><a href="/makeup.html">Makiyaj</a></li>
+          <li><a href="/sun.html">Günəş</a></li>
+          <li><a href="/home.html">Üz</a></li>
+          <li><a href="/home.html">Bədən</a></li>
+          <li><a href="/home.html">K-beauty</a></li>
+          <li><a href="/home.html">Parfüm</a></li>
+          <li><a href="/home.html">Hədiyyəlik Dəstlər</a></li>
+          <li><a href="/home.html">Uşaq və ana</a></li>
+          <li><a href="/home.html">Markalar</a></li>
+          <li><a href="/home.html">Hədiyyə kartı</a></li>
+          <li><a href="/home.html">Kampaniyalar</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="main">
+      <section id="hair">
+        <div class="hairImg">
+          <div class="text">
+            <h1>Saç</h1>
+            <p>
+              Arzum Beautydən bütün saç tiplərinə uyğun şampunları, maskaları,
+              balzamları, serumları, en yeni saç məhsullarını,saç aksesuarlarını
+              əldə edərək saçlarınıza ehtiyacı olan baxımı göstərə bilərsiniz.
+              İstər zədəli, istər yağlı, istər buruq saçlara uyğun bütün saç
+              baxım məhsullarını Arzum Beautydən tapa bilərsiniz.
+            </p>
+          </div>
+        </div>
+        <p><a href="/home.html">Ana səhifə</a> / category (Saç)</p>
+        <div class="buttons">
+          <div class="btn">
+            <button>TƏMİZLƏMƏ/ARINDIRMA</button>
+            <button>SAÇ YAĞLARI/SERUMLARI</button>
+            <button>ƏN ÇOX SATANLAR</button>
+          </div>
+          <div class="btn">
+            <button>SAÇ BOYALARI</button>
+            <button>SAÇ SPREYLƏRİ</button>
+          </div>
+          <div class="btn">
+            <button>KONDİSİONER/BALZAM</button>
+            <button>ŞƏKİLLƏNDİRMƏ</button>
+          </div>
+          <div class="btn">
+            <button>SAÇ MASKALARI/KREMLƏRİ</button>
+            <button>SAÇ AKSESUARLARI</button>
+            <button>ƏN YENİLƏR</button>
+          </div>
+        </div>
+      </section>
+      <section id="hairProducts">
+        <div class="filter">
+          <div class="category">
+            <h3>Kateqoriyalar</h3>
+            <p>TƏMİZLƏMƏ/ARINDIRMA</p>
+            <p>SAÇ BOYALARI</p>
+            <p>KONDİSİONER/BALZAM</p>
+            <p>SAÇ MASKALARI/KREMLƏRİ</p>
+            <p>SAÇ YAĞLARI/SERUMLARI</p>
+            <p>SAÇ SPREYLƏRİ</p>
+            <p>ŞƏKİLLƏNDİRMƏ</p>
+            <p>SAÇ AKSESUARLARI</p>
+            <p>ƏN ÇOX SATANLAR</p>
+            <p>ƏN YENİLƏR</p>
+          </div>
+          <div class="deri">
+            <h3>Dəri tipi</h3>
+            <div class="input">
+              <input type="checkbox" /><span>Yağlı dəri</span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span>Quru dəri</span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span>Aknaeli dəri</span>
+            </div>
+          </div>
+          <div class="deri">
+            <h3>Saç tipi</h3>
+            <div class="input"><input type="checkbox" /><span>Quru</span></div>
+            <div class="input">
+              <input type="checkbox" /><span>Yağlı </span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span> Zədəli</span>
+            </div>
+          </div>
+          <div class="deri">
+            <h3>Markalar</h3>
+            <div class="input"><input type="checkbox" /><span>7DAYS</span></div>
+            <div class="input">
+              <input type="checkbox" /><span>Loreal </span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span> Compliment</span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span> Ashley Joy</span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span> Bioderma</span>
+            </div>
+            <div class="input">
+              <input type="checkbox" /><span> Urban Care</span>
+            </div>
+          </div>
+        </div>
+        <div class="hairProduct">
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-05-30-6658576dd5917.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Kundal Cool & Clear Scalp Refreshing Cool Shampoo - Aqua</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>36.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-05-31-665970118a6b8.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Kundal Cool & Clear Scalp Refreshing Cool Shampoo - Aqua</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>36.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-06-01-665a5753b2ba5.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Kundal Cool & Clear Scalp Refreshing Cool Shampoo - Aqua</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>36.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-06-01-665a545b1c740.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Kundal Cool & Clear Scalp Refreshing Cool Shampoo - Aqua</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>35.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-06-02-665c5f2961df2.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Kundal Sea Salt & Green Tea Scalp Scaler</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>22.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-06-02-665c8c7b54356.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Kundal Sea Salt & Green Tea Scalp Scaler</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>22.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-05-14-66437e2301eca.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Urban Care No:2 Bond Plex Restore Repair Shampoo</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>19.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-05-14-66437e7eab81a.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>Urban Care No:3 Bond Plex Restore Repair Conditioner</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>19.00₼</h2>
+            </div>
+          </div>
+          <div class="product">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <img
+              src="https://arzumbeauty.com/storage/app/public/product/thumbnail/2024-05-25-66519dba95ad3.png"
+              alt=""
+            />
+            <div class="text">
+              <h4>MAD Hair Perfume - Brave Selection</h4>
+              <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i> <span>(0)</span>
+              </div>
+              <h2>17.00₼</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="mail">
+        <p>Ən son xəbərlərdən xəbərdar olmaq üçün yeni kanalımıza abunə olun</p>
+        <div class="mailInput">
+          <input type="text" placeholder="E-poçt" />
+          <button>Abunə olun</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="foot1">
+          <div class="one">
+            <h3>Kömək lazımdır</h3>
+            <p>Əlaqə</p>
+            <p>Dəstək xidməti</p>
+            <p>+994555512112</p>
+            <p>info@arzumbeauty.com</p>
+          </div>
+          <div class="two">
+            <h3>Xüsusi</h3>
+            <p>Önə çıxanlar</p>
+            <p>Yeni gələnlər</p>
+            <p>Ən çox satılanlar</p>
+            <p>Ən çox rəy alanlar</p>
+          </div>
+          <div class="three">
+            <h3>Hesab & çatdırılma</h3>
+            <p>Profile məlumatları</p>
+            <p>Bəyəndiklərim</p>
+            <p>Sifarişi izlə</p>
+            <p>Ünvanlar</p>
+          </div>
+          <div class="four">
+            <h3>Əlaqə</h3>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="foot2">
+          <p>© 2024 Bütün hüquqlar qorunur</p>
+          <p>Qaydalar və Şərtlər / Gizlilik və təhlükəsizlik</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

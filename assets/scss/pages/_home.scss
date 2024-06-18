@@ -1,0 +1,466 @@
+#slider {
+  .cards-items {
+    width: 80%;
+    margin: 10px auto;
+    .fa-solid {
+      display: none !important;
+    }
+    .card-item1 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 83vh;
+      background-image: url("https://arzumbeauty.com/storage/app/public/banner/2023-11-10-654e5606738b6.png");
+    }
+    .card-item2 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 83vh;
+      background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-18-66713f0337b78.jpg");
+    }
+    .card-item3 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 83vh;
+      background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-16-666e983b80254.jpg");
+    }
+    .card-item4 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 83vh;
+      background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-08-666434285cfa0.jpg");
+    }
+    .card-item5 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 83vh;
+      background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-06-6661a68d4cf9a.png");
+    }
+  }
+}
+#yeniGelenler {
+  width: 100%;
+  height: 80vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  .fa-solid {
+    display: none !important;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    .yeni-items {
+      margin: 50px 0;
+      .yeni-item {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin-right: 30px;
+        border-radius: 4px;
+        gap: 30px;
+        position: relative;
+        .heart {
+          border: 1px solid gainsboro;
+          border-radius: 50%;
+          width: 42px;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background-color: white;
+          .fa-heart {
+            font-size: 19px;
+            color: gray;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 250px;
+          height: 200px;
+          object-fit: cover;
+        }
+        .text {
+          margin: 0 30px;
+          h4 {
+            font-size: 17px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #333;
+          }
+          .stars {
+            margin: 10px 0;
+            .fa-star {
+              color: orange;
+            }
+          }
+          h2 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+#makiyaj {
+  width: 100%;
+  height: 80vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  .fa-solid {
+    display: none !important;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    .yeni-items {
+      margin: 50px 0;
+      .yeni-item {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin-right: 30px;
+        border-radius: 4px;
+        gap: 30px;
+        position: relative;
+        .heart {
+          border: 1px solid gainsboro;
+          border-radius: 50%;
+          width: 42px;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background-color: white;
+          .fa-heart {
+            font-size: 19px;
+            color: gray;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 250px;
+          height: 200px;
+          object-fit: cover;
+        }
+        .text {
+          margin: 0 30px;
+          h4 {
+            font-size: 17px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #333;
+          }
+          .stars {
+            margin: 10px 0;
+            .fa-star {
+              color: orange;
+            }
+          }
+          h2 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+#beauty {
+  width: 100%;
+  height: 120vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  .fa-solid {
+    display: none !important;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    .yeni-items {
+      margin: 50px 0;
+      .yeni-item {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin-right: 30px;
+        border-radius: 4px;
+        gap: 30px;
+        position: relative;
+        .heart {
+          border: 1px solid gainsboro;
+          border-radius: 50%;
+          width: 42px;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background-color: white;
+          .fa-heart {
+            font-size: 19px;
+            color: gray;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 250px;
+          height: 200px;
+          object-fit: cover;
+        }
+        .text {
+          margin: 0 30px;
+          h4 {
+            font-size: 17px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #333;
+          }
+          .stars {
+            margin: 10px 0;
+            .fa-star {
+              color: orange;
+            }
+          }
+          h2 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .imgs {
+      img {
+        width: 600px;
+        height: 350px;
+      }
+    }
+  }
+}
+#sale {
+  width: 100%;
+  height: auto;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  .fa-solid {
+    display: none !important;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    .yeni-items {
+      margin: 50px 0;
+      .yeni-item {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin-right: 30px;
+        border-radius: 4px;
+        gap: 30px;
+        position: relative;
+        .heart {
+          border: 1px solid gainsboro;
+          border-radius: 50%;
+          width: 42px;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background-color: white;
+          .fa-heart {
+            font-size: 19px;
+            color: gray;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 250px;
+          height: 200px;
+          object-fit: cover;
+        }
+        .text {
+          margin: 0 30px;
+          h4 {
+            font-size: 17px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #333;
+          }
+          .stars {
+            margin: 10px 0;
+            .fa-star {
+              color: orange;
+            }
+          }
+          h2 {
+            font-size: 20px;
+            line-height: 24px;
+            del {
+              margin-right: 8px;
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+    .images {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      .img1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        img {
+          width: 610px;
+        }
+      }
+    }
+  }
+}
+#onecixanlar {
+  width: 100%;
+  height: 200vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  .fa-solid {
+    display: none !important;
+  }
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    .yeni-items {
+      margin: 50px 0;
+      .yeni-item {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin-right: 30px;
+        border-radius: 4px;
+        gap: 30px;
+        position: relative;
+        .heart {
+          border: 1px solid gainsboro;
+          border-radius: 50%;
+          width: 42px;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background-color: white;
+          .fa-heart {
+            font-size: 19px;
+            color: gray;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 250px;
+          height: 200px;
+          object-fit: cover;
+        }
+        .text {
+          margin: 0 30px;
+          h4 {
+            font-size: 17px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #333;
+          }
+          .stars {
+            margin: 10px 0;
+            .fa-star {
+              color: orange;
+            }
+          }
+          h2 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        img{
+            width: 100%;
+        }
+        .img1 {
+          display: grid;
+          grid-template-columns: auto auto;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+          img {
+            width: 600px;
+          }
+        }
+      }
+  }
+}

@@ -1,0 +1,1109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar {
+  width: 75%;
+  height: 5vh;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: white;
+}
+.navbar .logo {
+  width: 300px;
+}
+.navbar .search {
+  width: 500px;
+  height: 40px;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 16px 7px 56px;
+  border-color: transparent;
+  background-color: #f6f6f8;
+}
+.navbar .search .fa-magnifying-glass {
+  color: gray;
+  margin-right: 10px;
+}
+.navbar .search input {
+  width: 400px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+.navbar .lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .lang p {
+  font-size: 17px;
+}
+.navbar .lang .fa-chevron-down {
+  margin-left: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar .lang .fa-globe {
+  margin-right: 8px;
+  font-size: 18px;
+  color: gray;
+}
+.navbar .icons i {
+  cursor: pointer;
+  font-size: 21px;
+  margin-right: 15px;
+}
+
+.menu {
+  font-family: sans-serif;
+  width: 100%;
+  height: 6vh;
+  background-color: black;
+}
+.menu ul {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.menu ul li a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  font-family: sans-serif;
+}
+footer .mail {
+  width: 100%;
+  height: 30vh;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .mail p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #1d2123;
+  margin-bottom: 32px;
+  text-align: center;
+}
+footer .mail input {
+  width: 550px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 11px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1d2123;
+}
+footer .mail button {
+  border: 0 solid transparent;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 12px 32px;
+  text-align: center;
+  background-color: #1d2123;
+  color: white;
+  cursor: pointer;
+  transition: all 600ms;
+}
+footer .mail button:hover {
+  background-color: #fe3638;
+}
+footer .footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #131515;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+footer .footer .foot1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: start;
+  justify-content: space-between;
+  color: white;
+  gap: 200px;
+}
+footer .footer .foot1 h3 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+footer .footer .foot1 p {
+  cursor: pointer;
+  margin: 15px 0;
+  color: gray;
+}
+footer .footer .foot1 .fa-brands {
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer .footer .foot2 {
+  border-top: 1px solid gray;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 400px;
+}
+footer .footer .foot2 p {
+  margin-top: 20px;
+}
+
+#slider .cards-items {
+  width: 80%;
+  margin: 10px auto;
+}
+#slider .cards-items .fa-solid {
+  display: none !important;
+}
+#slider .cards-items .card-item1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+  background-image: url("https://arzumbeauty.com/storage/app/public/banner/2023-11-10-654e5606738b6.png");
+}
+#slider .cards-items .card-item2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+  background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-18-66713f0337b78.jpg");
+}
+#slider .cards-items .card-item3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+  background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-16-666e983b80254.jpg");
+}
+#slider .cards-items .card-item4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+  background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-08-666434285cfa0.jpg");
+}
+#slider .cards-items .card-item5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 83vh;
+  background-image: url("https://arzumbeauty.com/storage/app/public/banner/2024-06-06-6661a68d4cf9a.png");
+}
+
+#yeniGelenler {
+  width: 100%;
+  height: 80vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#yeniGelenler .fa-solid {
+  display: none !important;
+}
+#yeniGelenler .container {
+  width: 80%;
+  margin: 50px auto;
+}
+#yeniGelenler .container .yeni-items {
+  margin: 50px 0;
+}
+#yeniGelenler .container .yeni-items .yeni-item {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 4px;
+  gap: 30px;
+  position: relative;
+}
+#yeniGelenler .container .yeni-items .yeni-item .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+#yeniGelenler .container .yeni-items .yeni-item .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+#yeniGelenler .container .yeni-items .yeni-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+#yeniGelenler .container .yeni-items .yeni-item .text {
+  margin: 0 30px;
+}
+#yeniGelenler .container .yeni-items .yeni-item .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+#yeniGelenler .container .yeni-items .yeni-item .text .stars {
+  margin: 10px 0;
+}
+#yeniGelenler .container .yeni-items .yeni-item .text .stars .fa-star {
+  color: orange;
+}
+#yeniGelenler .container .yeni-items .yeni-item .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#makiyaj {
+  width: 100%;
+  height: 80vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#makiyaj .fa-solid {
+  display: none !important;
+}
+#makiyaj .container {
+  width: 80%;
+  margin: 50px auto;
+}
+#makiyaj .container .yeni-items {
+  margin: 50px 0;
+}
+#makiyaj .container .yeni-items .yeni-item {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 4px;
+  gap: 30px;
+  position: relative;
+}
+#makiyaj .container .yeni-items .yeni-item .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+#makiyaj .container .yeni-items .yeni-item .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+#makiyaj .container .yeni-items .yeni-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+#makiyaj .container .yeni-items .yeni-item .text {
+  margin: 0 30px;
+}
+#makiyaj .container .yeni-items .yeni-item .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+#makiyaj .container .yeni-items .yeni-item .text .stars {
+  margin: 10px 0;
+}
+#makiyaj .container .yeni-items .yeni-item .text .stars .fa-star {
+  color: orange;
+}
+#makiyaj .container .yeni-items .yeni-item .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#beauty {
+  width: 100%;
+  height: 120vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#beauty .fa-solid {
+  display: none !important;
+}
+#beauty .container {
+  width: 80%;
+  margin: 50px auto;
+}
+#beauty .container .yeni-items {
+  margin: 50px 0;
+}
+#beauty .container .yeni-items .yeni-item {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 4px;
+  gap: 30px;
+  position: relative;
+}
+#beauty .container .yeni-items .yeni-item .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+#beauty .container .yeni-items .yeni-item .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+#beauty .container .yeni-items .yeni-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+#beauty .container .yeni-items .yeni-item .text {
+  margin: 0 30px;
+}
+#beauty .container .yeni-items .yeni-item .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+#beauty .container .yeni-items .yeni-item .text .stars {
+  margin: 10px 0;
+}
+#beauty .container .yeni-items .yeni-item .text .stars .fa-star {
+  color: orange;
+}
+#beauty .container .yeni-items .yeni-item .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+#beauty .container .imgs img {
+  width: 600px;
+  height: 350px;
+}
+
+#sale {
+  width: 100%;
+  height: auto;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#sale .fa-solid {
+  display: none !important;
+}
+#sale .container {
+  width: 80%;
+  margin: 50px auto;
+}
+#sale .container .yeni-items {
+  margin: 50px 0;
+}
+#sale .container .yeni-items .yeni-item {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 4px;
+  gap: 30px;
+  position: relative;
+}
+#sale .container .yeni-items .yeni-item .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+#sale .container .yeni-items .yeni-item .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+#sale .container .yeni-items .yeni-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+#sale .container .yeni-items .yeni-item .text {
+  margin: 0 30px;
+}
+#sale .container .yeni-items .yeni-item .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+#sale .container .yeni-items .yeni-item .text .stars {
+  margin: 10px 0;
+}
+#sale .container .yeni-items .yeni-item .text .stars .fa-star {
+  color: orange;
+}
+#sale .container .yeni-items .yeni-item .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+#sale .container .yeni-items .yeni-item .text h2 del {
+  margin-right: 8px;
+  color: gray;
+}
+#sale .container .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#sale .container .images .img1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#sale .container .images .img1 img {
+  width: 610px;
+}
+
+#onecixanlar {
+  width: 100%;
+  height: 200vh;
+  background-color: #faf9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+#onecixanlar .fa-solid {
+  display: none !important;
+}
+#onecixanlar .container {
+  width: 80%;
+  margin: 50px auto;
+}
+#onecixanlar .container .yeni-items {
+  margin: 50px 0;
+}
+#onecixanlar .container .yeni-items .yeni-item {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 4px;
+  gap: 30px;
+  position: relative;
+}
+#onecixanlar .container .yeni-items .yeni-item .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+#onecixanlar .container .yeni-items .yeni-item .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+#onecixanlar .container .yeni-items .yeni-item img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+#onecixanlar .container .yeni-items .yeni-item .text {
+  margin: 0 30px;
+}
+#onecixanlar .container .yeni-items .yeni-item .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+#onecixanlar .container .yeni-items .yeni-item .text .stars {
+  margin: 10px 0;
+}
+#onecixanlar .container .yeni-items .yeni-item .text .stars .fa-star {
+  color: orange;
+}
+#onecixanlar .container .yeni-items .yeni-item .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+#onecixanlar .container .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#onecixanlar .container .images img {
+  width: 100%;
+}
+#onecixanlar .container .images .img1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#onecixanlar .container .images .img1 img {
+  width: 600px;
+}
+
+.main {
+  background-color: #faf9f9;
+  padding: 30px 0;
+}
+.main #hair {
+  width: 80%;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+.main #hair .hairImg {
+  border: 1.25rem solid #000;
+  width: 100%;
+  height: 36vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://arzumbeauty.com/storage/app/public/category/category_632ea681680375-44413882-33082579.jpg");
+}
+.main #hair .hairImg .text h1 {
+  font-weight: 400;
+  font-size: 60px;
+  margin: 20px;
+}
+.main #hair .hairImg .text p {
+  width: 600px;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 40px 20px;
+  line-height: 20px;
+}
+.main #hair p {
+  margin: 20px 0;
+}
+.main #hair p a {
+  text-decoration: none;
+  color: gray;
+}
+.main #hair .buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.main #hair .buttons .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main #hair .buttons .btn button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 10px 0;
+  background: #4e9458;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  width: 220px;
+}
+.main #hairProducts {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: center;
+  font-family: sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+.main #hairProducts .filter {
+  border-right: 1px solid gainsboro;
+  height: 200vh;
+  padding-right: 40px;
+}
+.main #hairProducts .filter p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #1d2123;
+  cursor: pointer;
+}
+.main #hairProducts .filter h3 {
+  font-size: 19px;
+  line-height: 24px;
+  color: #1d2123;
+  margin: 10px 0;
+}
+.main #hairProducts .filter .deri {
+  margin: 25px 0;
+}
+.main #hairProducts .filter .deri .input {
+  margin: 10px 0;
+}
+.main #hairProducts .filter .deri .input input {
+  margin-right: 5px;
+}
+.main #hairProducts .hairProduct {
+  margin-left: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.main #hairProducts .hairProduct .product {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  gap: 30px;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+.main #hairProducts .hairProduct .product .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+.main #hairProducts .hairProduct .product .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+.main #hairProducts .hairProduct .product img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+.main #hairProducts .hairProduct .product .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.main #hairProducts .hairProduct .product .text .stars {
+  margin: 10px 0;
+}
+.main #hairProducts .hairProduct .product .text .stars .fa-star {
+  color: orange;
+}
+.main #hairProducts .hairProduct .product .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main {
+  background-color: #faf9f9;
+  padding: 30px 0;
+}
+.main #makeup {
+  width: 80%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+.main #makeup .makeupImg {
+  border: 1.25rem solid #000;
+  width: 100%;
+  height: 36vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://arzumbeauty.com/storage/app/public/category/category_6329bca639d019-85182981-11546604.jpg");
+}
+.main #makeup .makeupImg .text h1 {
+  font-weight: 400;
+  font-size: 60px;
+  margin: 20px;
+}
+.main #makeup .makeupImg .text p {
+  width: 600px;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 40px 20px;
+  line-height: 20px;
+}
+.main #makeup p {
+  margin: 20px 0;
+}
+.main #makeup p a {
+  text-decoration: none;
+  color: gray;
+}
+.main #makeup .buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.main #makeup .buttons .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main #makeup .buttons .btn button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 10px 0;
+  background: #fd8bc7;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  width: 220px;
+}
+.main #makeupProducts {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: center;
+  font-family: sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+.main #makeupProducts .filter {
+  border-right: 1px solid gainsboro;
+  height: 200vh;
+  padding-right: 40px;
+}
+.main #makeupProducts .filter p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #1d2123;
+  cursor: pointer;
+}
+.main #makeupProducts .filter h3 {
+  font-size: 19px;
+  line-height: 24px;
+  color: #1d2123;
+  margin: 10px 0;
+}
+.main #makeupProducts .filter .deri {
+  margin: 25px 0;
+}
+.main #makeupProducts .filter .deri .input {
+  margin: 10px 0;
+}
+.main #makeupProducts .filter .deri .input input {
+  margin-right: 5px;
+}
+.main #makeupProducts .makeupProduct {
+  margin-left: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.main #makeupProducts .makeupProduct .product {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  gap: 30px;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+.main #makeupProducts .makeupProduct .product .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+.main #makeupProducts .makeupProduct .product .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+.main #makeupProducts .makeupProduct .product img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+.main #makeupProducts .makeupProduct .product .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.main #makeupProducts .makeupProduct .product .text .stars {
+  margin: 10px 0;
+}
+.main #makeupProducts .makeupProduct .product .text .stars .fa-star {
+  color: orange;
+}
+.main #makeupProducts .makeupProduct .product .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main {
+  background-color: #faf9f9;
+  padding: 30px 0;
+}
+.main #sun {
+  width: 80%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+.main #sun .sunImg {
+  border: 1.25rem solid #000;
+  width: 100%;
+  height: 36vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://arzumbeauty.com/storage/app/public/category/category_63298d21415dd5-33013660-40218407.jpg");
+}
+.main #sun .sunImg .text h1 {
+  font-weight: 400;
+  font-size: 60px;
+  margin: 20px;
+}
+.main #sun .sunImg .text p {
+  width: 600px;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 40px 20px;
+  line-height: 20px;
+}
+.main #sun p {
+  margin: 20px 0;
+}
+.main #sun p a {
+  text-decoration: none;
+  color: gray;
+}
+.main #sun .buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.main #sun .buttons .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main #sun .buttons .btn button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 10px 0;
+  background: #f5bb3d;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  width: 220px;
+}
+.main #sunProducts {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: center;
+  font-family: sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+.main #sunProducts .filter {
+  border-right: 1px solid gainsboro;
+  height: 200vh;
+  padding-right: 40px;
+}
+.main #sunProducts .filter p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #1d2123;
+  cursor: pointer;
+}
+.main #sunProducts .filter h3 {
+  font-size: 19px;
+  line-height: 24px;
+  color: #1d2123;
+  margin: 10px 0;
+}
+.main #sunProducts .filter .deri {
+  margin: 25px 0;
+}
+.main #sunProducts .filter .deri .input {
+  margin: 10px 0;
+}
+.main #sunProducts .filter .deri .input input {
+  margin-right: 5px;
+}
+.main #sunProducts .sunProduct {
+  margin-left: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.main #sunProducts .sunProduct .product {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  gap: 30px;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+.main #sunProducts .sunProduct .product .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+.main #sunProducts .sunProduct .product .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+.main #sunProducts .sunProduct .product img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+.main #sunProducts .sunProduct .product .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.main #sunProducts .sunProduct .product .text .stars {
+  margin: 10px 0;
+}
+.main #sunProducts .sunProduct .product .text .stars .fa-star {
+  color: orange;
+}
+.main #sunProducts .sunProduct .product .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+footer {
+  width: 100%;
+  font-family: sans-serif;
+  .mail {
+    width: 100%;
+    height: 30vh;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+      color: #1d2123;
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    input {
+      width: 550px;
+      background-color: #fff;
+      border: none;
+      outline: none;
+      border-radius: 8px;
+      padding: 11px 16px;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #1d2123;
+    }
+    button {
+      border: 0 solid transparent;
+      border-radius: 8px;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 500;
+      padding: 12px 32px;
+      text-align: center;
+      background-color: #1d2123;
+      color: white;
+      cursor: pointer;
+      transition: all 600ms;
+      &:hover {
+        background-color: #fe3638;
+      }
+    }
+  }
+  .footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #131515;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    .foot1 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      align-items: start;
+      justify-content: space-between;
+      color: white;
+      gap: 200px;
+      h3 {
+        margin: 20px 0;
+        font-size: 20px;
+      }
+      p {
+        cursor: pointer;
+        margin: 15px 0;
+        color: gray;
+      }
+      .fa-brands {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+    .foot2 {
+      border-top: 1px solid gray;
+      color: gray;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 400px;
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+}

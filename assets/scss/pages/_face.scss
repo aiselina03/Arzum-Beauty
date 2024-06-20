@@ -1,0 +1,161 @@
+.main {
+    background-color: #faf9f9;
+    padding: 30px 0;
+    #face {
+      width: 80%;
+      margin: 30px auto;
+      font-family: sans-serif;
+      .faceImg {
+        border: 1.25rem solid #000;
+        width: 100%;
+        height: 36vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("https://arzumbeauty.com/storage/app/public/category/category_63299001c227b3-80845845-38860097.jpg");
+        .text {
+          h1 {
+            font-weight: 400;
+            font-size: 60px;
+            margin: 20px;
+          }
+          p {
+            width: 600px;
+            font-weight: 500;
+            font-size: 15px;
+            margin: 40px 20px;
+            line-height: 20px;
+          }
+        }
+      }
+      p {
+        margin: 20px 0;
+        a {
+          text-decoration: none;
+          color: gray;
+        }
+      }
+      .buttons {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: space-between;
+        .btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          button {
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: 400;
+            margin: 10px 0;
+            background: #ffd1d4;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            width: 220px;
+          }
+        }
+      }
+    }
+    #makeupProducts {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: start;
+      justify-content: center;
+      font-family: sans-serif;
+      width: 80%;
+      margin: 50px auto;
+      font-family: sans-serif;
+  
+      .filter {
+        border-right: 1px solid gainsboro;
+        height: 200vh;
+        padding-right: 40px;
+        p {
+          font-size: 14px;
+          line-height: 32px;
+          color: #1d2123;
+          cursor: pointer;
+        }
+        h3 {
+          font-size: 19px;
+          line-height: 24px;
+          color: #1d2123;
+          margin: 10px 0;
+        }
+        .deri {
+          margin: 25px 0;
+          .input {
+            margin: 10px 0;
+            input {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      .makeupProduct {
+        margin-left: 30px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: center;
+        .product {
+          width: 300px;
+          height: 450px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background-color: white;
+          gap: 30px;
+          border-radius: 4px;
+          padding: 20px;
+          position: relative;
+          .heart {
+            border: 1px solid gainsboro;
+            border-radius: 50%;
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            .fa-heart {
+              font-size: 19px;
+              color: gray;
+              cursor: pointer;
+            }
+          }
+          img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+          }
+          .text {
+            h4 {
+              font-size: 17px;
+              line-height: 20px;
+              font-weight: 400;
+              color: #333;
+            }
+            .stars {
+              margin: 10px 0;
+              .fa-star {
+                color: orange;
+              }
+            }
+            h2 {
+              font-size: 20px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+  

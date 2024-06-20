@@ -956,6 +956,162 @@ footer .footer .foot2 p {
   background-color: #faf9f9;
   padding: 30px 0;
 }
+.main #face {
+  width: 80%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+.main #face .faceImg {
+  border: 1.25rem solid #000;
+  width: 100%;
+  height: 36vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://arzumbeauty.com/storage/app/public/category/category_63299001c227b3-80845845-38860097.jpg");
+}
+.main #face .faceImg .text h1 {
+  font-weight: 400;
+  font-size: 60px;
+  margin: 20px;
+}
+.main #face .faceImg .text p {
+  width: 600px;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 40px 20px;
+  line-height: 20px;
+}
+.main #face p {
+  margin: 20px 0;
+}
+.main #face p a {
+  text-decoration: none;
+  color: gray;
+}
+.main #face .buttons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.main #face .buttons .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main #face .buttons .btn button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 10px 0;
+  background: #ffd1d4;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  width: 220px;
+}
+.main #makeupProducts {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: center;
+  font-family: sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+.main #makeupProducts .filter {
+  border-right: 1px solid gainsboro;
+  height: 200vh;
+  padding-right: 40px;
+}
+.main #makeupProducts .filter p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #1d2123;
+  cursor: pointer;
+}
+.main #makeupProducts .filter h3 {
+  font-size: 19px;
+  line-height: 24px;
+  color: #1d2123;
+  margin: 10px 0;
+}
+.main #makeupProducts .filter .deri {
+  margin: 25px 0;
+}
+.main #makeupProducts .filter .deri .input {
+  margin: 10px 0;
+}
+.main #makeupProducts .filter .deri .input input {
+  margin-right: 5px;
+}
+.main #makeupProducts .makeupProduct {
+  margin-left: 30px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.main #makeupProducts .makeupProduct .product {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  gap: 30px;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+}
+.main #makeupProducts .makeupProduct .product .heart {
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+}
+.main #makeupProducts .makeupProduct .product .heart .fa-heart {
+  font-size: 19px;
+  color: gray;
+  cursor: pointer;
+}
+.main #makeupProducts .makeupProduct .product img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+.main #makeupProducts .makeupProduct .product .text h4 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333;
+}
+.main #makeupProducts .makeupProduct .product .text .stars {
+  margin: 10px 0;
+}
+.main #makeupProducts .makeupProduct .product .text .stars .fa-star {
+  color: orange;
+}
+.main #makeupProducts .makeupProduct .product .text h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main {
+  background-color: #faf9f9;
+  padding: 30px 0;
+}
 .main #sun {
   width: 80%;
   margin: 30px auto;
